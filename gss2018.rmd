@@ -80,7 +80,8 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-We reject the null hypothesis since the p value is lower then .05
+We reject the null hypothesis since the p-value is lower then .05.   
+The fisher exact test shows that the odds of 2.27 would round up to 2.3 due to the p-value being lower than .05.
 
 #  Question 2
 
