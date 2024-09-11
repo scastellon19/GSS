@@ -32,6 +32,9 @@ $H_0$: gun ownership and opinion on capital punishment are not related
 
 $H_A$: gun ownership and opinion on capital punishment are related
 
+owngun ~ cappun both are categorical, thus I use cat_cat  
+
+
 
 ## Methods
 
