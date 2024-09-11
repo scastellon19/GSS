@@ -117,7 +117,7 @@ The box plot shows that people who voted in 2012 had more education
 favstats(EDUC~VOTE12,data=GSSdata)
 ```
 
-People who voted in 2012 on average had approxiamtly 16 years of education.
+People who voted in 2012 on average had approximately 16 years of education.
 
 ### Inferential Results
 
@@ -165,6 +165,12 @@ The box plot show there is a slight difference in the data for each group. The m
 #### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(WORDSUM~DEGREE,data=GSSdata)
+```
+
+The table reflects that Junior college and Bachelor is approximately the same mean. Where the Graduate is much higher and the LT High School and High School is significantly lower.
 
 ### Inferential Results
 
