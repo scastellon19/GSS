@@ -141,8 +141,8 @@ There is a relationship between the number of years in education to those who vo
 
 Determine if a persons performance on the wordsum test (WORDSUM) is independent of their level of schooling (DEGREE).
 
-$H_0$ a persons performance on wordsum test is not independent of their schooling.  
-$H_A$ A person performance on wordsum test is independent of their schooling. 
+$H_0$ a persons performance on wordsum test is not dependent of their schooling.  
+$H_A$ A person performance on wordsum test is dependent of their schooling. 
 
 ## Methods
 
@@ -162,7 +162,7 @@ $H_A$ A person performance on wordsum test is independent of their schooling.
 boxplot(WORDSUM~DEGREE,data=GSSdata)
 ```
 
-The box plot show there is a slight difference in the data for each group. The more advanced the education the higher the score is and the lower the education showed a lower score.  
+The box plot show there is a slight difference in the data for each group. The more advanced the education the higher the score, and the lower the education the lower the score.  
 
 
 #### Numerical Descriptive Results
@@ -185,8 +185,12 @@ summary.aov(model1)
 ```
 
 We reject the null hypothesis since the p-value is lower then .05.   
-There is a difference between the average score on the wordsum test and the level of schooling degree.  There is a difference in the level of education and the performance on the performing the test. 
+There is a difference between the average score on the wordsum test and the level of schooling degree.  
+There is a difference in the level of education and the performance on the performing the test. 
 
+```{r}
+plot(TukeyHSD(model1))
+```
 
 # Discussion and Conclusion
 
