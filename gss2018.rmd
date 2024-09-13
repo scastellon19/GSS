@@ -196,4 +196,6 @@ Question 1: In conclusion people who owned guns were 2.3 time more likely to fav
 
 Question 2:In conclusion the people who voted in 2012 had an average of 16 years of education compared to those who didn't vote had an average of 13 years of education. 
 
-Question 3: In conclusion
+Question 3: In conclusion the graph shows a slight difference, but reflects that the higher education had higher scores. 
+
+Overall we reject the null since the p-value was lower than 0.05
